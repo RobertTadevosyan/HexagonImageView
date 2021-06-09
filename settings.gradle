@@ -1,0 +1,3 @@
+include ':robertTadevosyan:hexagonImageView'
+include ':app'
+rootProject.name = "HexagonImageView"
