@@ -31,7 +31,7 @@ Code sample:
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-![Hexagon shaped image view with borders as overlay](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/three.pngg)
+![Hexagon shaped image view with borders as overlay](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/three.png)
 
 Code sample:
 ```
