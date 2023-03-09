@@ -1,5 +1,32 @@
 # HexagonImageView
 
+To use the module connect via jitpack dependency or dowload adn import as module
+
+To connect via jitpack dependency
+
+add this line  maven { url 'https://jitpack.io' } to your settings.gradle file, inside the block dependencyResolutionManagement { repositories {// here }} ->
+
+```
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+```
+
+add the dependency to your app level build.gradle file -> 
+
+```
+
+dependencies {
+	        implementation 'com.github.RobertTadevosyan:HexagonImageView:latestVersion'
+	}
+    
+```    
 
 1) Simple hexagon shaped image view
 
@@ -7,10 +34,12 @@
 
 Code sample:
 ```
+
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:srcCompat="@drawable/ic_sample" />
+        
 ```
 
 
@@ -23,6 +52,7 @@ Code sample:
 
 Code sample:
 ```
+
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -30,6 +60,7 @@ Code sample:
         app:borderColor="@color/teal_700"
         app:srcCompat="@drawable/ic_sample"
         app:strokeWidth="10dp" />
+        
 ```
 
 
@@ -44,6 +75,7 @@ Code sample:
 
 Code sample:
 ```
+
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -52,6 +84,7 @@ Code sample:
         app:borderOverlay="true"
         app:srcCompat="@drawable/ic_sample"
         app:strokeWidth="10dp" />
+        
 ```
 
 
