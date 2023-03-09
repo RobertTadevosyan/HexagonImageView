@@ -32,28 +32,28 @@ android {
     }
 }
 
-//task sourceJar(type: Jar) {
-//    from android.sourceSets.main.java.srcDirs
-//    classifier "sources"
-//}
-//// ./gradlew clean build publish
-//
-//publishing {
-//    publications {
-//        bar(MavenPublication) {
-//            groupId 'com.robert'
-//            artifactId 'hexagon-image-view'
-//            version '1.0.0'
-//            artifact(sourceJar)
-//            artifact("$buildDir/outputs/aar/app-release.aar")
-//        }
-//    }
-//    repositories {
-//        maven {
-//            url "$buildDir/repo"
-//        }
-//    }
-//}
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
+}
+// ./gradlew clean build publish
+
+publishing {
+    publications {
+        bar(MavenPublication) {
+            groupId 'com.robert'
+            artifactId 'hexagon-image-view'
+            version '1.0.0'
+            artifact(sourceJar)
+            artifact("$buildDir/outputs/aar/hexagon_image_view-release.aar")
+        }
+    }
+    repositories {
+        maven {
+            url "$buildDir/repo"
+        }
+    }
+}
 
 dependencies {
     implementation 'androidx.core:core-ktx:1.9.0'
