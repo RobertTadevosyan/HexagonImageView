@@ -43,7 +43,7 @@ publishing {
         bar(MavenPublication) {
             groupId 'com.robert'
             artifactId 'hexagon-image-view'
-            version '1.0.0'
+            version '1.0.1'
             artifact(sourceJar)
             artifact("$buildDir/outputs/aar/hexagon_image_view-release.aar")
         }
