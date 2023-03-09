@@ -1,5 +1,8 @@
 # HexagonImageView
 
+
+1) Simple hexagon shaped image view
+
 ![Simple hexagon shaped image view](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/one.png)
 
 Code sample:
@@ -12,6 +15,9 @@ Code sample:
 
 
 ------------------------------------------------------------------------------------------------------------------------------------
+
+
+2) Hexagon shaped image view with borders
 
 ![Hexagon shaped image view with borders](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/two.png)
 
@@ -30,6 +36,9 @@ Code sample:
 
 
 ------------------------------------------------------------------------------------------------------------------------------------
+
+
+3) Hexagon shaped image view with borders as overlay
 
 ![Hexagon shaped image view with borders as overlay](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/three.png)
 
