@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.robert.hexagon.image.view.HexagonImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_sample" />
+
+    <com.robert.hexagon.image.view.HexagonImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:borderColor="@color/teal_700"
+        app:srcCompat="@drawable/ic_sample"
+        app:strokeWidth="10dp" />
+
+    <com.robert.hexagon.image.view.HexagonImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:backgroundColor="@color/teal_200"
+        app:borderColor="@color/teal_700"
+        app:borderOverlay="true"
+        app:srcCompat="@drawable/ic_sample"
+        app:strokeWidth="10dp" />
+
+</LinearLayout>
