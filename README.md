@@ -1,4 +1,4 @@
-# HexagonImageView
+# HexagonImageView  - Latest version v1.0.1
 
 To use the module connect via jitpack dependency or dowload adn import as module
 
@@ -6,7 +6,7 @@ To connect via jitpack dependency
 
 add this line  maven { url 'https://jitpack.io' } to your settings.gradle file, inside the block dependencyResolutionManagement { repositories {// here }} ->
 
-```
+```Kotlin
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -20,11 +20,12 @@ dependencyResolutionManagement {
 
 add the dependency to your app level build.gradle file -> 
 
-```
+```Kotlin
+def latestVersion = 'v1.0.1'
 
 dependencies {
-	        implementation 'com.github.RobertTadevosyan:HexagonImageView:latestVersion'
-	}
+     implementation 'com.github.RobertTadevosyan:HexagonImageView:$latestVersion'
+}
     
 ```    
 
@@ -33,7 +34,7 @@ dependencies {
 ![Simple hexagon shaped image view](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/one.png)
 
 Code sample:
-```
+```XML
 
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
@@ -51,7 +52,7 @@ Code sample:
 ![Hexagon shaped image view with borders](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/two.png)
 
 Code sample:
-```
+```XML
 
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
@@ -74,7 +75,7 @@ Code sample:
 ![Hexagon shaped image view with borders as overlay](https://raw.githubusercontent.com/RobertTadevosyan/HexagonImageView/master/three.png)
 
 Code sample:
-```
+```XML
 
     <com.robert.hexagon.image.view.HexagonImageView
         android:layout_width="200dp"
